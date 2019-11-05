@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  padding-top:5vh;
+  margin:0!important;
+  background-color:#eeeeee!important;
+  height:100vh;
+  overflow:hidden;
+}
+.func input[type=number]::-webkit-inner-spin-button, .rest input[type=number]::-webkit-inner-spin-button, 
+.func input[type=number]::-webkit-outer-spin-button, .rest input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.content{
+  height: 90vh;
+  padding:0!important;
+  margin: 0 auto;
+  width: 90% !important;
+}
+.rest{
+  background-color: #f8f8f8;
+  border-right: 0.2px solid lightgray;
+  height:100%;
+  padding:0!important;
+}
